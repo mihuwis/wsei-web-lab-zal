@@ -34,6 +34,23 @@ header nav ul li a {
 }
 
 
+.work-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-item {
+    width: 23%;
+    margin: 1%;
+}
+
+.work-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
 
 .btn {
     background-color: #00a8cc;
