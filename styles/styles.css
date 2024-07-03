@@ -162,6 +162,15 @@ section {
 
 }
 
+.grey-label {
+    background-color: #f0f0f0;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .process-steps {
     display: flex;
     justify-content: center;
@@ -170,14 +179,18 @@ section {
 
 .step {
     width: 20%;
-    margin: 10px;
+    border: #000 1px solid;
+    height: 8vh;
     padding: 20px;
     background-color: #f0f0f0;
-    border-radius: 5px;
+    text-align: center;
+    line-height: 8vh;
+
 }
 
 .testimonial {
-    background-color: #f0f0f0;
+    background-color:  rgb(15, 189, 189);
+    color:#ffffff;
     padding: 30px;
     border-radius: 5px;
     margin-top: 20px;
@@ -188,10 +201,15 @@ section {
     font-weight: normal;
 }
 
+#contact{
+    background-color: #f0f0f0;
+}
+
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 form input, form textarea {
@@ -203,7 +221,7 @@ form input, form textarea {
 }
 
 form button {
-    background-color: #00a8cc;
+    background-color:  rgb(15, 189, 189);
     color: #fff;
     padding: 15px 30px;
     border: none;
@@ -212,7 +230,7 @@ form button {
 }
 
 footer {
-    background-color: #00a8cc;
+    background-color:  rgb(3, 11, 11);
     color: #fff;
     padding: 30px 0;
     text-align: center;
