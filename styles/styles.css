@@ -198,6 +198,11 @@ section {
     font-weight: normal;
 }
 
+#logos-baner{
+    display: flex;
+    justify-content: center;
+}
+
 #contact{
     background-color: #f0f0f0;
 }
